@@ -9,10 +9,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: white;
     --foreground: #ededed;
   }
-}
+} 
 
 body {
   color: var(--foreground);
@@ -25,3 +25,17 @@ body {
     text-wrap: balance;
   }
 }
+
+.slick-arrow {
+  display: flex;
+  font-size: 1em; 
+
+   color: black;
+
+  z-index: 10; 
+  background: white; 
+
+  stroke-linecap: slick-arr;
+}
+
+
